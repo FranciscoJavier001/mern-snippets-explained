@@ -1,3 +1,4 @@
+// package.json = archivo que define las dependencias, scripts y configuración del proyecto
 {
   "name": "backend",
   "version": "1.0.0",
