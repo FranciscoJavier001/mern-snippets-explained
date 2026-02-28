@@ -12,7 +12,7 @@ export default function Hello() { // Componente React (se exporta como default p
   async function send() { // Handler async: llama API usando el valor actual de "name".
     try {
       // Llama endpoint con "name" en la ruta.
-      // Nota: si tu backend no tiene CORS habilitado, fallará en navegador.
+      // Nota: si tu backend no tiene CORS habilitado, fallará en navegador. (Cors sistema que le en backend de origen)
       const r = await fetch(`http://localhost:3000/hello/${encodeURIComponent(name)}`);
 
       // Manejo de errores HTTP (fetch NO lanza error por 404/500 automáticamente).
